@@ -60,7 +60,7 @@ const onGenerateSubmit = (e) => {
   const size = document.getElementById("size").value;
   
   let op = table.options[table.selectedIndex].id;
-  let url = 'https://app.sipconsult.net/frankiesCustomer/?Q='+op;
+  let url = 'https://app.sipconsult.net/frankiesCustomer/?q='+op;
   // Validate url
   if (url === "") {
     alert("Please enter a URL");
